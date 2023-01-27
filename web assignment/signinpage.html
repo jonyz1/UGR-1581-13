@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<title>sign in page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body class="p-3 mb-2 bg-light text-dark">
+      <header class="header1 container-fluid p-3 mb-2 bg-secondary">
+        <div class="row">
+          <img src="image/logo.png" alt="this is the logo" class="logo col-1" >
+       
+          <h2 class="col-7 mt-2">Abyssinia Tour</h2>
+        
+          
+          <nav class="navigation col-4 mt-3">
+              <a href="homepage.html" class="ms-5">Home</a> 
+              <a href="optionpage.html" class="ms-3">place to visit</a>
+              <a href="about us.html" class="ms-3">about us</a>
+              <a href="contact us page.html "class="ms-3">contact us</a>
+              <a href="signinpage.html" class="ms-3">sign in</a>
+          </nav>
+        </div>
+         
+          
+      </header>
+        
+       <div class="sign container-fluid row mt-5">
+       
+       
+         <div class="section1 col mt-5 ">
+             <h2 class="plan">To plan your trip</h2>
+            <h4>Sign in</h4> 
+            <form class="h-25 w-100">
+                <label for="em">Your email:</label><br>
+                <input type="email" id="em" name="em" required><br>
+                <label for="passw">Password:</label><br>
+                <input type="password" id="passw" name="passw" required><br><br>
+                <div class="sigcont">
+                  <input onclick="signIn()" type="submit" value="SIGN IN" class="sig" required>
+                </div>
+               
+                <br>
+              </form> 
+            </div>
+            <div class="section2 col mt-5">
+                <pre>New User?    Sign up</pre>
+                        <form action="post" class="h-25">
+                            <label for="uname" >UserName:</label><br>
+                            <input type="text" id="uname" name="uname" required><br>
+                            <label for="email">Your email:</label><br>
+                            <input type="email" id="email" name="email" required><br>
+                            <label for="pass">Password:</label><br>
+                            <input type="password" id="pass" name="pass" required><br><br>
+                            <div class="flexcont" href="myaccount.html" >
+
+                              <input type="submit" value="SIGN UP" class="signup"  >
+                            </div>
+                          </form> 
+                </div>
+       </div>
+         
+       <footer class="foot container-fluid mt-5 p-3 mb-2 bg-secondary">
+        <div class="footer-container row">
+          <img src="image/logo.png" alt="this is the logo" class="footlogo col-1">
+       
+        
+          <h3 class="footername col-5">Abyssinia Tour</h3>
+          <nav class="footernavigation col">
+      
+              <a href="about us.html" class="me-5">about us</a>
+            <a href="contact us page.html" class="me-5">contact us</a>
+            
+          </nav>
+        </div>
+            <p class="copy ms-5"> <span>&copy;</span> Copyright. All rights reserved.</p>
+    </footer>
+  
+   
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    </html>

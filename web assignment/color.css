@@ -1,0 +1,26 @@
+.header1{
+    color: white;
+    background-color: aqua;
+}
+.header1 img{
+    background-color: aqua;
+}
+.header1 h2{
+    background-color: blue;
+}
+.header1 nav{
+    background-color: bisque;
+}
+.foot{
+    background-color: rgb(191, 0, 255);
+}
+.foot h2{
+    background-color: blue;
+}
+.foot nav{
+    background-color: antiquewhite;
+
+}
+.foot p{
+    background-color: brown;
+}
